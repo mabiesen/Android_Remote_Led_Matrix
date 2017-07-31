@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <com.javacodegeeks.androidcanvasexample.CanvasView
+        android:id="@+id/signature_canvas"
+        android:layout_width="wrap_content"
+        android:layout_height="375dp"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/redBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/red"
+                android:layout_marginLeft = "10dp"
+                android:onClick="colorBtnHndlr" />
+
+            <Button
+                android:id="@+id/orngBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/orange"
+                android:layout_marginLeft = "10dp"
+                android:onClick="colorBtnHndlr" />
+            <Button
+                android:id="@+id/yelBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/yellow"
+                android:layout_marginLeft = "10dp"
+                android:onClick="colorBtnHndlr" />
+            <Button
+                android:id="@+id/grnBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/green"
+                android:layout_marginLeft = "10dp"
+                android:onClick="colorBtnHndlr" />
+            <Button
+                android:id="@+id/cyaBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/cyan"
+                android:layout_marginLeft = "10dp"
+                android:onClick="colorBtnHndlr" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/prplBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/purple"
+                android:layout_marginLeft = "10dp"
+                android:onClick="colorBtnHndlr" />
+
+            <Button
+                android:id="@+id/lbluBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/light_blue"
+                android:layout_marginLeft = "10dp"
+                android:onClick="colorBtnHndlr" />
+            <Button
+                android:id="@+id/pnkBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/pink"
+                android:layout_marginLeft = "10dp"
+                android:onClick="colorBtnHndlr" />
+            <Button
+                android:id="@+id/blkBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#000000"
+                android:layout_marginLeft = "10dp"
+                android:onClick="colorBtnHndlr" />
+            <Button
+                android:id="@+id/whtBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                android:layout_marginLeft = "10dp"
+                android:onClick="colorBtnHndlr" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="clearCanvas"
+                android:text="Clear Canvas" />
+
+            <Button
+                android:id="@+id/tcpBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="flipTcpSwitch"
+                android:text="TCP Comm: Off" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
