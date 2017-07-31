@@ -47,7 +47,7 @@ public class AndroidCanvasExample extends Activity {
 
     public void sendData(String coordinate){
 
-        String[] mytaskparams = {"192.168.254.41","8080",coordinate};
+        String[] mytaskparams = {"YOUR_IP","YOUR_PORT",coordinate};
         try{
 
             new AsyncTcpClient().execute(mytaskparams);
