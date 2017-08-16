@@ -16,3 +16,5 @@ The application is a big drawing screen composed of 32x32 squares which represen
 1.  Enhance touch detection on the display.  Currently you have you move your finger slowing in order for the display to register your touch.
 
 2.  Create the option to change port and IP address from the UI
+
+3. Handling for phone rotation.
